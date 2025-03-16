@@ -1,0 +1,14 @@
+[project]
+name = "mcp-roblox-demo"
+version = "0.1.0"
+description = "Edit your Roblox scripts from any LLM"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = ["httpx>=0.28.1", "mcp[cli]>=1.4.1", "python-dotenv>=1.0.1"]
+
+[[project.authors]]
+name = "William Strealy"
+email = "williamstrealy@gmail.com"
+
+[project.scripts]
+mcp-roblox-demo = "mcp_roblox_demo:main"
